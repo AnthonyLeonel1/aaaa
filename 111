@@ -1,0 +1,7 @@
+#kkk = 0;
+DO;
+    #kkk = #kkk + 1;
+    KEY(ATTACK);
+    WAIT(100ms);
+    KEY(ATTACK);
+WHILE(%#kkk%<10);
